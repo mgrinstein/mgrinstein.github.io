@@ -34,21 +34,21 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.Home,
     LinkPreset.Archive,
     LinkPreset.About,
-    {
-      name: "LinkedIn",
-      url: "https://www.linkedin.com/in/moniquegrinstein/", // Internal links should not include the base path, as it is automatically added
-      external: true // Show an external link icon and will open in a new tab
-    },
-    {
-      name: "GitHub",
-      url: "https://github.com/mgrinstein", // Internal links should not include the base path, as it is automatically added
-      external: true // Show an external link icon and will open in a new tab
-    }
+    // {
+    //   name: "LinkedIn",
+    //   url: "https://www.linkedin.com/in/moniquegrinstein/", // Internal links should not include the base path, as it is automatically added
+    //   external: true // Show an external link icon and will open in a new tab
+    // },
+    // {
+    //   name: "GitHub",
+    //   url: "https://github.com/mgrinstein", // Internal links should not include the base path, as it is automatically added
+    //   external: true // Show an external link icon and will open in a new tab
+    // }
   ]
 };
 
 export const profileConfig: ProfileConfig = {
-  avatar: "assets/images/demo-avatar.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+  avatar: "assets/images/signature-light.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   name: "I write about...",
   bio: "Software Engineering | Cloud Computing | Developer Experience",
   links: [
@@ -60,14 +60,20 @@ export const profileConfig: ProfileConfig = {
     //   url: "https://twitter.com"
     // },
     {
-      name: "Steam",
-      icon: "fa6-brands:steam",
-      url: "https://store.steampowered.com"
+      name: "LinkedIn",
+      icon: "fa6-brands:linkedin",
+      url: "https://www.linkedin.com/in/moniquegrinstein/"
     },
     {
       name: "GitHub",
       icon: "fa6-brands:github",
       url: "https://github.com/mgrinstein"
+    }
+    ,
+    {
+      name: "GitHub",
+      icon: "fa6-regular:envelope",
+      url: "mailto:grinsteinmonique@gmail.com"
     }
   ]
 };
