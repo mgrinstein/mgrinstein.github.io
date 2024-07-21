@@ -1,6 +1,8 @@
 # About
-<!-- ![alt text](../../assets/images/photo.png) -->
-<Image src='/src/assets/images/photo.png' style="background-color: #00FFFF;">
+![alt text](../../assets/images/photo.png)
+<!-- [//]: # (![example image]&#40;/src/assets/images/photo.png' "An exemplary image"&#41;) -->
+<!-- ![example image]&#40;./demo-banner.png "An exemplary image"&#41; -->
+<!-- <Image src='/src/assets/images/photo.png' style="background-color: #00FFFF;"> -->
 I am Software Engineer experienced in architecting, developing, and maintaining scalable, resilient, and secure Cloud applications. I work mainly with Backend development and AWS services.
 
 I maintain this blog as a way to share about topics I am passionate about and engage with the community. I also often engage in public speaking on those topics.
