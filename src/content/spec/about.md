@@ -5,7 +5,7 @@
 <!-- <Image src='/src/assets/images/photo.png' style="background-color: #00FFFF;"> -->
 I am Software Engineer experienced in architecting, developing, and maintaining scalable, resilient, and secure Cloud applications. I work mainly with Backend development and AWS services.
 
-I maintain this blog as a way to share about topics I am passionate about and engage with the community. I also often engage in public speaking on those topics.
+I maintain this blog as a way to share about Software Engineering topics I am passionate about and engage with the community. I also often engage in public speaking on said topics.
 
 > ### Notable achievements and professional memberships include:
 > - Member of the Chartered Institute for I.T. (MBCS)

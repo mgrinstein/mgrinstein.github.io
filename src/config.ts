@@ -71,7 +71,7 @@ export const profileConfig: ProfileConfig = {
     }
     ,
     {
-      name: "GitHub",
+      name: "E-mail",
       icon: "fa6-regular:envelope",
       url: "mailto:grinsteinmonique@gmail.com"
     }
