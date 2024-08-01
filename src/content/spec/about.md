@@ -12,6 +12,7 @@ I maintain this blog as a way to share about Software Engineering topics I am pa
 > - Member of the Institution of Engineering and Technology (MIET)
 > - AWS Community Builder
 > - AWS Certified Solutions Architect - Associate
+> - AWS Certified Developer - Associate
 > - AWS Certified Cloud Practitioner
 
 If you would like to contact me, please send an email at grinsteinmonique@gmail.com
