@@ -2,13 +2,14 @@
 title: Building a GenAI Solution — Architecture & Development
 published: 2024-07-14
 description: "How to get started with a proof of concept GenAI project, including service architecture and code implementation."
-image: "./cover.jpeg"
+image: "./genai-architecture-cover.jpeg"
 tags: ["Generative AI", "Software Architecture", "AWS"]
 category: Guides
 draft: false
 ---
 
 As the world continues to advance rapidly in the realm of Artificial Intelligence, the implementation of Generative AI solutions is becoming a crucial aspect of modern software development.
+
 This article aims to guide you through the process of architecting and developing a service that uses GenAI, specifically focusing on a product **description generator** case, and choosing AWS services to implement it.
 
 ---
@@ -25,6 +26,8 @@ The implementation for the description generator case is composed of four steps:
 4. The response is propagated to the user.
 
 [Image -- The solution flow]
+
+---
 
 ### Writing the (pseudo)code
 Here's a high-level outline of the system with Python-inspired pseudocode syntax:
@@ -98,6 +101,7 @@ def generate_description(settings, model_params, prompt):
     return text_generation_model(prompt)
 ```
 
+---
 ### Implementation on AWS
 I used the following AWS services to create a demo for this project:
 
@@ -109,8 +113,11 @@ I used the following AWS services to create a demo for this project:
 
 **Amazon Bedrock:** provides a standardized API to several Foundation Models, simplifying integrations, operations, and model version upgrades.
 
-_💡 **Tip:** AWS also offers various samples on their GitHub page using Bedrock. They include composing emails, summarizing text, answering questions, building chatbots, and creating images, and you can easily adapt the code to your needs:_
-::github{repo="aws-samples/amazon-bedrock-workshop"}
+> [!TIP]
+> AWS also offers various samples on their GitHub page using Bedrock. They include composing emails, summarizing text, answering questions, building chatbots, and creating images, and you can easily adapt the code to your needs:
+> ::github{repo="aws-samples/amazon-bedrock-workshop"}
+
+---
 
 ## 📖 On a personal note
 I am currently a back-end engineer, but on my first full-time job, I worked with data analysis and business-related tasks. I really wanted to write code though, so when AI's "first wave", with data science as the propulsor, I started studying it too to see what was possible for my department.
@@ -124,8 +131,11 @@ It is tempting to start with trial and error when building applications using ne
 
 Having this method as a rule allows me to come up with a final solution that is clean, trivial, and free from the noise that other draft ideas could have introduced. I don't have to spend a lot of time refactoring code or investigating bugs. **Breaking your design down into manageable chunks that you comprehend thoroughly, and eliminating the 'nice-to-haves' that don't fit in the category of essential features will allow you to get a project across the finishing line.** Then you will have the time and clarity of mind to deliver any extra feature that builds upon it.
 
+---
 
 ## Make it your own
 The flexibility of this architecture allows for a wide range of applications beyond product descriptions. With a few adjustments, you can tailor it to various creative and functional purposes. For instance, it could generate a story that matches an illustration or a haiku to accompany your vacation photos. It could also include a narration module using a text-to-speech service. The sky is the limit!
 
-You can find other content related to this topic, plus Backend and Cloud articles, on my [Medium page](https://medium.com/@grinsteinmonique).
+---
+
+This article was originally published on my [Medium page](https://medium.com/@grinsteinmonique).
