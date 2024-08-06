@@ -1,5 +1,5 @@
 # About
-![alt text](../../assets/images/photo.png)
+![profile photo](../../assets/images/photo.png)
 <!-- [//]: # (![example image]&#40;/src/assets/images/photo.png' "An exemplary image"&#41;) -->
 <!-- ![example image]&#40;./demo-banner.png "An exemplary image"&#41; -->
 <!-- <Image src='/src/assets/images/photo.png' style="background-color: #00FFFF;"> -->

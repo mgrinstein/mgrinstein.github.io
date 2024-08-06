@@ -25,6 +25,7 @@ The implementation for the description generator case is composed of four steps:
 3. A text template is populated with the labels and metadata, and sent to prompt the Foundation Model, which returns a new description;
 4. The response is propagated to the user.
 
+![The solution flow](./genai-architecture-1.jpg)
 [Image -- The solution flow]
 
 ---
@@ -105,6 +106,7 @@ def generate_description(settings, model_params, prompt):
 ### Implementation on AWS
 I used the following AWS services to create a demo for this project:
 
+![Using AWS services](./genai-architecture-2.jpg)
 [Image -- Using AWS services]
 
 **Amazon SageMaker:** AWS' fully managed Machine Learning service. By creating a SageMaker notebook instance, you will have a Machine Learning compute instance running the Jupyter Notebook App, whilst SageMaker manages the instance creation and related resources. It is where you can develop and run your solution.
