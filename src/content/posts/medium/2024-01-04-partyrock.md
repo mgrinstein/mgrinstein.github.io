@@ -1,6 +1,6 @@
 ---
 title: Build GenAI Apps With PartyRock in 5 Simple Steps (Code-Free)
-published: 2024-07-14
+published: 2024-01-04
 description: "It's now easy to build your own Generative AI app quickly, with no code involved!"
 image: "./partyrock.png"
 tags: ["Generative AI", "No Code", "AWS"]
