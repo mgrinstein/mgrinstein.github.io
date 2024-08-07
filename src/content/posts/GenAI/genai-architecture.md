@@ -26,7 +26,10 @@ The implementation for the description generator case is composed of four steps:
 4. The response is propagated to the user.
 
 ![The solution flow](./genai-architecture-1.jpg)
-[Image -- The solution flow]
+<div style="text-align: center;">
+  The solution flow
+</div>
+<br>
 
 ---
 
@@ -107,7 +110,10 @@ def generate_description(settings, model_params, prompt):
 I used the following AWS services to create a demo for this project:
 
 ![Using AWS services](./genai-architecture-2.jpg)
-[Image -- Using AWS services]
+<div style="text-align: center;">
+  Using AWS services
+</div>
+<br>
 
 **Amazon SageMaker:** AWS' fully managed Machine Learning service. By creating a SageMaker notebook instance, you will have a Machine Learning compute instance running the Jupyter Notebook App, whilst SageMaker manages the instance creation and related resources. It is where you can develop and run your solution.
 
@@ -129,7 +135,11 @@ As we ride AI's "second wave", with the launch of Bedrock in 2023 for instance, 
 
 It is tempting to start with trial and error when building applications using new tools and technologies. However, one such approach might create a recurring need to revisit your implementation if the concept is not complete and you're dynamically adapting your service to your discovery of the tools' possibilities. Drawing it all up allows you to understand your requirements, build a complete solution, outline its smaller, self-contained components, and reflect on the interfaces between those.
 
-[Image -- Photo by Kelly Sikkema on Unsplash]
+![Photo by Kelly Sikkema on Unsplash](./genai-architecture-3.jpg)
+<div style="text-align: center;">
+  Photo by <a href="https://unsplash.com/@kellysikkema?utm_source=medium&utm_medium=referral">Kelly Sikkema</a> on <a href="https://unsplash.com/?utm_source=medium&utm_medium=referral">Unsplash</a>
+</div>
+<br>
 
 Having this method as a rule allows me to come up with a final solution that is clean, trivial, and free from the noise that other draft ideas could have introduced. I don't have to spend a lot of time refactoring code or investigating bugs. **Breaking your design down into manageable chunks that you comprehend thoroughly, and eliminating the 'nice-to-haves' that don't fit in the category of essential features will allow you to get a project across the finishing line.** Then you will have the time and clarity of mind to deliver any extra feature that builds upon it.
 
