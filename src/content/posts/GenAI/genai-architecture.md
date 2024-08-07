@@ -2,7 +2,7 @@
 title: Building a GenAI Solution — Architecture & Development
 published: 2024-07-14
 description: "How to get started with a proof of concept GenAI project, including service architecture and code implementation."
-image: "./images/genai-architecture/genai-architecture-3.jpeg"
+image: "./images/genai-architecture/genai-architecture-3.jpg"
 tags: ["Generative AI", "Software Architecture", "AWS"]
 category: GenAI
 draft: false
