@@ -10,7 +10,11 @@ draft: false
 
 If you already use Generative AI technologies (such as ChatGPT or DALL-E) with some frequency, you might have started noticing patterns in what you ask the chatbots for. For instance, if you always want new haiku poems to impress your friends, having a template that takes in the theme would facilitate you getting a poem output faster, and prevent you from having to repeat yourself every time you'd like a new one.
 
-[Image -- GenAI app example - Source: PartyRock]
+![GenAI app example](./partyrock-1.jpeg)
+<div style="text-align: center;">
+  GenAI app example&nbsp;-&nbsp;Source: <a href="https://partyrock.aws/">PartyRock</a>
+</div>
+<br>
 
 Perhaps you would also want to leverage GenAI to build your apps and share them with the world, but you don't want to spend hours taking care of the service instantiation, programming, and website hosting aspects of it.
 
@@ -31,7 +35,11 @@ Let's now navigate to the [PartyRock website](https://partyrock.aws/) and create
 ### Step 1) Launch the app builder
 Click 'Build your own app' (bottom left).
 
-[Image -- PartyRock homepage - Source: PartyRock]
+![PartyRock homepage](./partyrock-2.jpeg)
+<div style="text-align: center;">
+  PartyRock homepage&nbsp;-&nbsp;Source: <a href="https://partyrock.aws/">PartyRock</a>
+</div>
+<br>
 
 ### Step 2) Describe what you would like your app to do
 Mine will return ideas for new apps based on my interests, but you input any other description you would like here.
@@ -40,19 +48,31 @@ Click 'Generate app' after writing the description.
 
 > E.g.: Recommend use cases for generative ai apps based on the domains of interest the user specifies. Also include a chat with an AI specialist to give tips on how to build said app.
 
-[Image -- Describing your app - Source: PartyRock]
+![Describing your app](./partyrock-3.jpeg)
+<div style="text-align: center;">
+  Describing your app&nbsp;-&nbsp;Source: <a href="https://partyrock.aws/">PartyRock</a>
+</div>
+<br>
 
 ### Step 3) Log in to your profile
 Log in using any Google, Apple, or Amazon account. If you're already logged in, your app will be generated automatically.
 
 If you don't have a PartyRock profile yet, select a username and enter your location. You will then be able to generate your app.
 
-[Image -- Signing in and selecting a username - Source: PartyRock]
+![Signing in and selecting a username](./partyrock-4.jpeg)
+<div style="text-align: center;">
+  Signing in and selecting a username&nbsp;-&nbsp;Source: <a href="https://partyrock.aws/">PartyRock</a>
+</div>
+<br>
 
 ### Step 4 - optional) Edit and customize your app
 PartyRock generates a first version of the app for you. It will look something like this:
 
-[Image -- Automatically generated app - Source: PartyRock]
+![Automatically generated app](./partyrock-5.jpeg)
+<div style="text-align: center;">
+  Automatically generated app&nbsp;-&nbsp;Source: <a href="https://partyrock.aws/">PartyRock</a>
+</div>
+<br>
 
 You can now optionally tweak things further and edit widget settings and appearance (top right). If you do not wish to do that, skip to **Step 5**.
 
@@ -61,29 +81,52 @@ You can **change how widgets are displayed on the page (size and placement), and
 
 On editing mode, you can also **add new widgets** - once you click 'Add Widget', options will appear at the bottom of the page:
 
-[Image -- Widget options you can choose from - Source: PartyRock]
+![Widget options you can choose from](./partyrock-6.jpeg)
+<div style="text-align: center;">
+  Widget options you can choose from&nbsp;-&nbsp;Source: <a href="https://partyrock.aws/">PartyRock</a>
+</div>
+<br>
 
-[Image -- Corresponding descriptions and settings - Learn more at: https://partyrock.aws/guide/building]
+![Corresponding descriptions and settings](./partyrock-7.jpeg)
+<div style="text-align: center;">
+  Corresponding descriptions and settings&nbsp;-&nbsp;Learn more at: <a href="https://partyrock.aws/guide/building">PartyRock - Building Guide</a>
+</div>
+<br>
+
 
 ### Step 5) Share your app! 🎉
 It's time to share your creation!
 
 Click 'Make public and Share' (top right) to get a unique shareable link for your app. You can also switch it back to private whenever you'd like.
 
-[Image -- Automatic link creation for your app - Source: PartyRock]
+![Automatic link creation for your app](./partyrock-8.jpeg)
+<div style="text-align: center;">
+  Automatic link creation for your app&nbsp;-&nbsp;Source: <a href="https://partyrock.aws/">PartyRock</a>
+</div>
+<br>
+
 
 ## Final result
 My app [Generative A.I.dvisor](https://partyrock.aws/u/grin/kxisv3nKr/Generative-A.I.dvisor) looks like this:
 
-[Image -- Generative A.I.dvisor on PartyRock]
+![Generative A.I.dvisor on PartyRock](./partyrock-9.jpeg)
+<div style="text-align: center;">
+  <a href="https://partyrock.aws/u/grin/kxisv3nKr/Generative-A.I.dvisor">Generative A.I.dvisor on PartyRock</a>
+</div>
+<br>
 
 I have edited it to use all 5 widget types and adjust the settings to what I needed. In the example above, I am requesting new app ideas for my interest in the legal domain.
 
-I thought this was a highly useful answer with an extremely savvy-looking cat, so I can leverage PartyRock's feature to **snapshot and share a response**: [Snapshot #1 (input: 'law')](https://partyrock.aws/u/grin/kxisv3nKr/Generative-A.I.dvisor/snapshot/UDO9hXLNP]).
+I thought this was a highly useful answer with an extremely savvy-looking cat, so I can leverage PartyRock's feature to **snapshot and share a response**: [Snapshot #1 (input: 'law')](https://partyrock.aws/u/grin/kxisv3nKr/Generative-A.I.dvisor/snapshot/UDO9hXLNP).
 
 A snapshot will include the version of the app at that given moment, all inputs, outputs, and generated images.
 
 [Image -- The AI Guru appreciates you following this tutorial - Generated with PartyRock]
+![The AI Guru appreciates you following this tutorial](./partyrock-10.jpeg)
+<div style="text-align: center;">
+  The AI Guru appreciates you following this tutorial&nbsp;-&nbsp;Generated with <a href="https://partyrock.aws/u/grin/kxisv3nKr/Generative-A.I.dvisor/snapshot/UDO9hXLNP">PartyRock</a>
+</div>
+<br>
 
 ---
 
