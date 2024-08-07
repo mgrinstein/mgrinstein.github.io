@@ -2,7 +2,7 @@
 title: Building a GenAI Solution — Architecture & Development
 published: 2024-07-14
 description: "How to get started with a proof of concept GenAI project, including service architecture and code implementation."
-image: "./genai-architecture-cover.jpeg"
+image: "./images/genai-architecture/genai-architecture-3.jpeg"
 tags: ["Generative AI", "Software Architecture", "AWS"]
 category: GenAI
 draft: false
@@ -25,7 +25,7 @@ The implementation for the description generator case is composed of four steps:
 3. A text template is populated with the labels and metadata, and sent to prompt the Foundation Model, which returns a new description;
 4. The response is propagated to the user.
 
-![The solution flow](./genai-architecture-1.jpg)
+![The solution flow](./images/genai-architecture/genai-architecture-1.jpg)
 <div style="text-align: center;">
   The solution flow
 </div>
@@ -109,7 +109,7 @@ def generate_description(settings, model_params, prompt):
 ### Implementation on AWS
 I used the following AWS services to create a demo for this project:
 
-![Using AWS services](./genai-architecture-2.jpg)
+![Using AWS services](./images/genai-architecture/genai-architecture-2.jpg)
 <div style="text-align: center;">
   Using AWS services
 </div>
@@ -135,7 +135,7 @@ As we ride AI's "second wave", with the launch of Bedrock in 2023 for instance, 
 
 It is tempting to start with trial and error when building applications using new tools and technologies. However, one such approach might create a recurring need to revisit your implementation if the concept is not complete and you're dynamically adapting your service to your discovery of the tools' possibilities. Drawing it all up allows you to understand your requirements, build a complete solution, outline its smaller, self-contained components, and reflect on the interfaces between those.
 
-![Photo by Kelly Sikkema on Unsplash](./genai-architecture-3.jpg)
+![Photo by Kelly Sikkema on Unsplash](./images/genai-architecture/genai-architecture-3.jpg)
 <div style="text-align: center;">
   Photo by <a href="https://unsplash.com/@kellysikkema?utm_source=medium&utm_medium=referral">Kelly Sikkema</a> on <a href="https://unsplash.com/?utm_source=medium&utm_medium=referral">Unsplash</a>
 </div>

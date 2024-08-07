@@ -2,7 +2,7 @@
 title: Build GenAI Apps With PartyRock in 5 Simple Steps (Code-Free)
 published: 2024-01-04
 description: "It's now easy to build your own Generative AI app quickly, with no code involved!"
-image: "./partyrock.png"
+image: "./images/partyrock/partyrock-10.png"
 tags: ["Generative AI", "No Code", "AWS"]
 category: GenAI
 draft: false
@@ -10,7 +10,7 @@ draft: false
 
 If you already use Generative AI technologies (such as ChatGPT or DALL-E) with some frequency, you might have started noticing patterns in what you ask the chatbots for. For instance, if you always want new haiku poems to impress your friends, having a template that takes in the theme would facilitate you getting a poem output faster, and prevent you from having to repeat yourself every time you'd like a new one.
 
-![GenAI app example](./partyrock-1.jpeg)
+![GenAI app example](./images/partyrock/partyrock-1.jpeg)
 <div style="text-align: center;">
   GenAI app example&nbsp;-&nbsp;Source: <a href="https://partyrock.aws/">PartyRock</a>
 </div>
@@ -35,7 +35,7 @@ Let's now navigate to the [PartyRock website](https://partyrock.aws/) and create
 ### Step 1) Launch the app builder
 Click 'Build your own app' (bottom left).
 
-![PartyRock homepage](./partyrock-2.jpeg)
+![PartyRock homepage](./images/partyrock/partyrock-2.jpeg)
 <div style="text-align: center;">
   PartyRock homepage&nbsp;-&nbsp;Source: <a href="https://partyrock.aws/">PartyRock</a>
 </div>
@@ -48,7 +48,7 @@ Click 'Generate app' after writing the description.
 
 > E.g.: Recommend use cases for generative ai apps based on the domains of interest the user specifies. Also include a chat with an AI specialist to give tips on how to build said app.
 
-![Describing your app](./partyrock-3.jpeg)
+![Describing your app](./images/partyrock/partyrock-3.jpeg)
 <div style="text-align: center;">
   Describing your app&nbsp;-&nbsp;Source: <a href="https://partyrock.aws/">PartyRock</a>
 </div>
@@ -59,7 +59,7 @@ Log in using any Google, Apple, or Amazon account. If you're already logged in, 
 
 If you don't have a PartyRock profile yet, select a username and enter your location. You will then be able to generate your app.
 
-![Signing in and selecting a username](./partyrock-4.jpeg)
+![Signing in and selecting a username](./images/partyrock/partyrock-4.jpeg)
 <div style="text-align: center;">
   Signing in and selecting a username&nbsp;-&nbsp;Source: <a href="https://partyrock.aws/">PartyRock</a>
 </div>
@@ -68,7 +68,7 @@ If you don't have a PartyRock profile yet, select a username and enter your loca
 ### Step 4 - optional) Edit and customize your app
 PartyRock generates a first version of the app for you. It will look something like this:
 
-![Automatically generated app](./partyrock-5.jpeg)
+![Automatically generated app](./images/partyrock/partyrock-5.jpeg)
 <div style="text-align: center;">
   Automatically generated app&nbsp;-&nbsp;Source: <a href="https://partyrock.aws/">PartyRock</a>
 </div>
@@ -81,13 +81,13 @@ You can **change how widgets are displayed on the page (size and placement), and
 
 On editing mode, you can also **add new widgets** - once you click 'Add Widget', options will appear at the bottom of the page:
 
-![Widget options you can choose from](./partyrock-6.jpeg)
+![Widget options you can choose from](./images/partyrock/partyrock-6.jpeg)
 <div style="text-align: center;">
   Widget options you can choose from&nbsp;-&nbsp;Source: <a href="https://partyrock.aws/">PartyRock</a>
 </div>
 <br>
 
-![Corresponding descriptions and settings](./partyrock-7.jpeg)
+![Corresponding descriptions and settings](./images/partyrock/partyrock-7.jpeg)
 <div style="text-align: center;">
   Corresponding descriptions and settings&nbsp;-&nbsp;Learn more at: <a href="https://partyrock.aws/guide/building">PartyRock - Building Guide</a>
 </div>
@@ -99,7 +99,7 @@ It's time to share your creation!
 
 Click 'Make public and Share' (top right) to get a unique shareable link for your app. You can also switch it back to private whenever you'd like.
 
-![Automatic link creation for your app](./partyrock-8.jpeg)
+![Automatic link creation for your app](./images/partyrock/partyrock-8.jpeg)
 <div style="text-align: center;">
   Automatic link creation for your app&nbsp;-&nbsp;Source: <a href="https://partyrock.aws/">PartyRock</a>
 </div>
@@ -109,7 +109,7 @@ Click 'Make public and Share' (top right) to get a unique shareable link for you
 ## Final result
 My app [Generative A.I.dvisor](https://partyrock.aws/u/grin/kxisv3nKr/Generative-A.I.dvisor) looks like this:
 
-![Generative A.I.dvisor on PartyRock](./partyrock-9.jpeg)
+![Generative A.I.dvisor on PartyRock](./images/partyrock/partyrock-9.jpeg)
 <div style="text-align: center;">
   <a href="https://partyrock.aws/u/grin/kxisv3nKr/Generative-A.I.dvisor">Generative A.I.dvisor on PartyRock</a>
 </div>
@@ -122,7 +122,7 @@ I thought this was a highly useful answer with an extremely savvy-looking cat, s
 A snapshot will include the version of the app at that given moment, all inputs, outputs, and generated images.
 
 [Image -- The AI Guru appreciates you following this tutorial - Generated with PartyRock]
-![The AI Guru appreciates you following this tutorial](./partyrock-10.jpeg)
+![The AI Guru appreciates you following this tutorial](./images/partyrock/partyrock-10.jpeg)
 <div style="text-align: center;">
   The AI Guru appreciates you following this tutorial&nbsp;-&nbsp;Generated with <a href="https://partyrock.aws/u/grin/kxisv3nKr/Generative-A.I.dvisor/snapshot/UDO9hXLNP">PartyRock</a>
 </div>
