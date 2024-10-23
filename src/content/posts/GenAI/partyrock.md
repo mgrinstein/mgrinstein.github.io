@@ -4,7 +4,7 @@ published: 2024-01-04
 description: "It's now easy to build your own Generative AI app quickly, with no code involved!"
 image: "./images/partyrock/partyrock-10.jpeg"
 tags: ["Generative AI", "No Code", "AWS"]
-category: GenAI
+category: Generative AI Applications
 draft: false
 ---
 

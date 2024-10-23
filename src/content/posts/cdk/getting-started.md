@@ -3,8 +3,8 @@ title: GenAI Made Easy for Devs - with AWS CDK Constructs
 published: 2024-10-23
 description: "How to get started with AWS CDK and create infrastructure for GenAI apps."
 image: "./images/getting-started/buildings.jpeg"
-tags: ["AWS CDK", "GenAI", "IaC"]
-category: CDK
+tags: ["Infrastructure as Code", "AWS", "Generative AI"]
+category: Infrastructure as Code
 draft: false
 ---
 

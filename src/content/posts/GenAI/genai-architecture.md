@@ -4,7 +4,7 @@ published: 2024-07-14
 description: "How to get started with a proof of concept GenAI project, including service architecture and code implementation."
 image: "./images/genai-architecture/genai-architecture-3.jpg"
 tags: ["Generative AI", "Software Architecture", "AWS"]
-category: GenAI
+category: Generative AI Applications
 draft: false
 ---
 
