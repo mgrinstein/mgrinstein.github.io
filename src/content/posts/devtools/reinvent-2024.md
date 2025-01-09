@@ -19,7 +19,7 @@ AWS re\:Invent 2024 brought a wealth of exciting announcements, particularly for
  - **Router**: TypeScript will soon benefit from this feature, which has already proven useful in the Python version. While I’ve traditionally been a fan of micro-functions, I’ve started exploring the advantages of Lambda monoliths in certain scenarios. I now look forward to testing the approach in TS.
 
 ## 2. AWS Toolkit for VSCode
-When I was in Dublin to speak at AWS Cloud Day, Stephen Howell mentioned his upcoming talk at re\:Invent on the developer’s survival kit (DEV205), and of course I couldn't miss it. It was a great talk on various developer tools, and the one that stood out was the AWS Toolkit for VSCode. It’s packed with features that streamline serverless development, such as:
+When I was in Dublin to speak at AWS Cloud Day, Stephen Howell mentioned his upcoming talk at re\:Invent on the developer’s survival kit (DEV205), and of course I couldn't miss it. It was a great talk on various developer tools, and the one that stood out for me was the AWS Toolkit for VSCode. It’s packed with features that streamline serverless development, such as:
 
 - **Invoking Lambda Functions Locally**: The toolkit allows you to pass test events directly through the IDE to invoke Lambda functions on AWS.
 - **Local Debugging for Serverless Applications**: Using Docker, the toolkit creates a container that mimics the AWS Lambda runtime environment. This means you can set breakpoints, inspect variables, view the call stack, and step through your code—all locally.
@@ -41,6 +41,6 @@ Hope they are also useful to you, and happy building!
 
 ![Problem solving](./images/quote.png)
 <div style="text-align: center;">
-  Quote from chalk talk DEV205 at AWS re:Invent 2024.
+  Quote from chalk talk DEV205 at AWS re:Invent 2024. Source: <a href="https://reinvent.awsevents.com/content/dam/reinvent/2024/slides/dev/DEV205_A-developers-survival-kit-Tools-for-building-beyond-the-AWS-console.pdf">AWS</a>.
 </div>
 <br>
