@@ -8,18 +8,18 @@ category: DevTools
 draft: false
 ---
 
-AWS re\:Invent 2024 brought a wealth of exciting announcements, particularly for developers. In this post, I share my top three DevTools that stood out, promising to streamline workflows, enhance debugging capabilities, and possibly revolutionize unit testing and code reviews. Read on to discover why these DevTools have me looking forward to an innovative 2025.
+AWS re\:Invent 2024 brought a wealth of exciting announcements, particularly for developers. <br>In this post, I share the three DevTools that stood out for me, which promise to facilitate serverless development, debugging, documenting, unit testing, and code reviews. <br><br> Read on to discover why these DevTools have me looking forward to an innovative 2025.
 
 ---
 
 ## 1. PowerTools for AWS Lambda (new features for TypeScript)
- If you're working with serverless, chances are you might have already used PowerTools at some point. At re:Invent, I had the chance to talk directly to the PowerTools developer team who were conducting a workshop for Python. I learned about new features that are not yet in the TypeScript implementation but are making their way in Q1, including: 
+ If you're working with serverless, chances are you have already used or are using PowerTools. At re\:Invent, I spoke to the PowerTools developer team who were conducting a workshop for Python. They looped me in on new features that are not yet in the TypeScript implementation but are making their way in Q1, including: 
 
  - **OpenAPI Spec Generation**: This feature will simplify the process of documenting and integrating APIs by generating OpenAPI specifications directly from your code.
- - **Router**: TypeScript will soon benefit from this feature, which has already proven useful in the Python version. While I’ve traditionally been a fan of micro-functions, I’ve started exploring the advantages of Lambda monoliths in certain scenarios. I now look forward to testing the approach in TS.
+ - **Router**: TypeScript will soon benefit from this feature to split routes that a Lambda function should handle, already available in the Python version. While I've traditionally been a fan of the micro-functions approach that breaks the routes into smaller Lambda functions, I've started exploring the advantages of Lambda monoliths in certain scenarios. I now look forward to testing the approach in TS.
 
 ## 2. AWS Toolkit for VSCode
-When I was in Dublin to speak at AWS Cloud Day, Stephen Howell mentioned his upcoming talk at re\:Invent on the developer’s survival kit (DEV205), and of course I couldn't miss it. It was a great talk on various developer tools, and the one that stood out for me was the AWS Toolkit for VSCode. It’s packed with features that streamline serverless development, such as:
+When I was in Dublin to speak at AWS Cloud Day, Dr. Stephen Howell mentioned his upcoming talk at re\:Invent on the Developer's Survival Kit (DEV205), and of course I couldn't miss it. It was a fantastic talk on various developer tools, and the one that stood out for me was the AWS Toolkit for VSCode. It’s packed with features that facilitate serverless development, such as:
 
 - **Invoking Lambda Functions Locally**: The toolkit allows you to pass test events directly through the IDE to invoke Lambda functions on AWS.
 - **Local Debugging for Serverless Applications**: Using Docker, the toolkit creates a container that mimics the AWS Lambda runtime environment. This means you can set breakpoints, inspect variables, view the call stack, and step through your code—all locally.
