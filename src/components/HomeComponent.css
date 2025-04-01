@@ -1,0 +1,59 @@
+@import '../styles/colors.css';
+
+/* Main container for AboutMe section */
+.home-component-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 30px auto;
+    background-color: var(--antiflash-white);
+    border: 2px solid var(--raisin-black);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 60px;
+  }
+  
+  /* Text section styling */
+  .home-component-text {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .home-component-text h2 {
+    color: var(--raisin-black);
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .home-component-text p {
+    color: var(--raisin-black);
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 10px;
+  }
+  
+  /* Photo section styling */
+  .home-component-photo {
+    width: 300px; /* Control the width of the photo */
+    height: auto;
+    flex-shrink: 0;
+  }
+  
+  .home-component-photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    border: 2px solid var(--raisin-black); /* Optional border for photo */
+    object-fit: cover;
+  }
+  
+  .home-component-text ul {
+    list-style-type: disc; /* Default bullet points */
+    padding-left: 20px; /* Indent the list */
+    color: var(--jungle-green); /* Sets the color of the text to jungle green */
+}
+
+.home-component-text li {
+    margin-bottom: 5px; /* Space between items */
+    color: var(--raisin-black); /* Sets the color of the list items to white */
+}
