@@ -30,7 +30,7 @@ jobs:
         run: npm run build
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./build  # Change this if your build folder is different
 
@@ -43,8 +43,8 @@ jobs:
 
     steps:
       - name: Setup GitHub Pages
-        uses: actions/configure-pages@v3  # REQUIRED for deploying GitHub Pages
+        uses: actions/configure-pages@v4  # REQUIRED for deploying GitHub Pages
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
