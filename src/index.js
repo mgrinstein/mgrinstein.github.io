@@ -1,25 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";  // Change BrowserRouter to HashRouter
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { Home, About, SpaceProjects, TechArticles, Speaking, Contact} from "./pages";
 
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      {/* <Route path="/space-projects" element={<SpaceProjects />} /> */}
-      <Route path="/tech-articles" element={<TechArticles />} />
-      <Route path="/speaking" element={<Speaking />} />
-      <Route path="/contact" element={<Contact />} />
-
-    </Routes>
-  </BrowserRouter>
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        {/* <Route path="/space-projects" element={<SpaceProjects />} /> */}
+        <Route path="/tech-articles" element={<TechArticles />} />
+        <Route path="/speaking" element={<Speaking />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </HashRouter>
   </React.StrictMode>
 );
 

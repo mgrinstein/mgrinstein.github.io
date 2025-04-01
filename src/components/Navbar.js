@@ -19,19 +19,19 @@ export function WebsiteNavbar() {
           <Nav.Link className={`Nav-link ${location.pathname === "/" ? "active" : ""}`} href="/">
             Home
           </Nav.Link>
-          <Nav.Link className={`Nav-link ${location.pathname === "/about" ? "active" : ""}`} href="/about">
+          <Nav.Link className={`Nav-link ${location.pathname === "/about" ? "active" : ""}`} href="/#/about">
             About
           </Nav.Link>
-          <Nav.Link className={`Nav-link ${location.pathname === "/tech-articles" ? "active" : ""}`} href="/tech-articles">
+          <Nav.Link className={`Nav-link ${location.pathname === "/tech-articles" ? "active" : ""}`} href="/#/tech-articles">
             Tech Articles
           </Nav.Link>
-          <Nav.Link className={`Nav-link ${location.pathname === "/speaking" ? "active" : ""}`} href="/speaking">
+          <Nav.Link className={`Nav-link ${location.pathname === "/speaking" ? "active" : ""}`} href="/#/speaking">
             Speaking
             </Nav.Link>
-          {/* <Nav.Link className={`Nav-link ${location.pathname === "/space-projects" ? "active" : ""}`} href="/space-projects">
+          {/* <Nav.Link className={`Nav-link ${location.pathname === "/space-projects" ? "active" : ""}`} href="/#/space-projects">
             Space Projects
           </Nav.Link> */}
-          <Nav.Link className={`Nav-link ${location.pathname === "/contact" ? "active" : ""}`} href="/contact">
+          <Nav.Link className={`Nav-link ${location.pathname === "/contact" ? "active" : ""}`} href="/#/contact">
             Contact
           </Nav.Link>
 
