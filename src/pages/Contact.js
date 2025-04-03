@@ -8,7 +8,7 @@ export function Contact() {
           {/* Text section with improved formatting */}
           <div className="intro-text">
             <p>
-            Feel free to reach out for collaboration or any professional inquiries through <a href="https://www.linkedin.com/in/moniquegrinstein/" target="_blank">LinkedIn</a>. <br />
+            Please feel free to reach out for any professional inquiries through <a href="https://www.linkedin.com/in/moniquegrinstein/" target="_blank">LinkedIn</a>. <br />
             {/* You can message me on <a href="https://www.linkedin.com/in/moniquegrinstein/" target="_blank">LinkedIn</a> or use the form below: */}
             </p>
           </div>

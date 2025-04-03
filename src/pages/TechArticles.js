@@ -9,7 +9,7 @@ export function TechArticles() {
       {/* Text section with improved formatting */}
       <div className="intro-text">
         <p>
-          I often write about Software Engineering topics, in particular Software Architecture, AI, Infrastructure as Code, and emerging technologies. Here are some of my recent articles:
+          I often write about Software Engineering topics, in particular Software Architecture, Cloud Computing, AI, Infrastructure as Code, and emerging technologies. Here are some of my recent articles:
         </p>
       </div>
 
