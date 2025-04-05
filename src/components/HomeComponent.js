@@ -1,4 +1,3 @@
-import React from "react";
 import "./HomeComponent.css";
 
 export function HomeComponent({ title, image, text }) {

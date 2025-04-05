@@ -1,4 +1,4 @@
-import { WebsiteNavbar, HomeComponent } from "../components";
+import { WebsiteNavbar, HomeComponent , Footer} from "../components";
 
 export function About() {
   return (
@@ -36,6 +36,7 @@ export function About() {
           />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

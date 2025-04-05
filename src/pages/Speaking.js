@@ -1,4 +1,4 @@
-import { ContentElement, WebsiteNavbar } from "../components";
+import { ContentElement, WebsiteNavbar, Footer } from "../components";
 import * as images from "../images/speaking";
 
 export function Speaking() {
@@ -85,6 +85,7 @@ export function Speaking() {
                     />
                 </div>
             </div>
+            <Footer />
         </div>
     );
 }

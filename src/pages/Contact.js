@@ -1,4 +1,4 @@
-import { WebsiteNavbar } from "../components";
+import { WebsiteNavbar, Footer } from "../components";
 
 export function Contact() {
     return (
@@ -13,6 +13,9 @@ export function Contact() {
             </p>
           </div>
           </div>
+          <div style={{ height: "400px" }}></div>
+
+          <Footer />
         </div>
       );
 }

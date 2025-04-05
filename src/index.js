@@ -13,8 +13,8 @@ root.render(
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         {/* <Route path="/space-projects" element={<SpaceProjects />} /> */}
-        <Route path="/tech-articles" element={<TechArticles />} />
         <Route path="/speaking" element={<Speaking />} />
+        <Route path="/tech-articles" element={<TechArticles />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </HashRouter>

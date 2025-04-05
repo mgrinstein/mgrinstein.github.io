@@ -1,4 +1,4 @@
-import { WebsiteNavbar, HomeComponent } from "../components";
+import { WebsiteNavbar, HomeComponent, Footer } from "../components";
 import * as images from "../images/about";
 
 export function Home() {
@@ -15,6 +15,7 @@ export function Home() {
                     />
                 </div>
             </div>{" "}
+            <Footer />
         </div>
     );
 }

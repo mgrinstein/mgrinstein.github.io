@@ -1,7 +1,7 @@
 import { ContentElement, WebsiteNavbar } from "../components";
 import cat from "../images/cat.jpeg";
 
-export function SpaceProjects() {
+export function Projects() {
   return (
     <div className="PageContainer">
       <WebsiteNavbar />

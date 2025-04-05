@@ -1,4 +1,4 @@
-import { ContentElement, WebsiteNavbar } from "../components";
+import { ContentElement, WebsiteNavbar, Footer } from "../components";
 import * as images from "../images/articles";
 
 export function TechArticles() {
@@ -52,6 +52,7 @@ export function TechArticles() {
         />
       </div>
       </div>
+      <Footer />
     </div>
   );
 }
