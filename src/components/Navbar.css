@@ -1,10 +1,5 @@
 @import '../styles/colors.css';
 
-* {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-}
-
 .Navbar {
   background-color: var(--antiflash-white);
   margin: 0 auto;
@@ -14,12 +9,11 @@
 }
 
 .Nav-logo {
-  width: 15px;
-  /* Set the width of the logo image */
-  height: auto;
-  /* Maintain aspect ratio */
+  width: 20px;  /* Default logo size */
+  height: auto;  /* Maintain aspect ratio */
 }
 
+/* Navbar Links */
 .Nav-link {
   color: var(--raisin-black);
   text-decoration: none;
@@ -27,49 +21,73 @@
 }
 
 .Nav-link:hover {
-  color: var(--jungle-green);
-  /* Light color on hover */
+  color: var(--jungle-green); /* Light color on hover */
 }
 
 .Nav {
   display: flex;
-  align-items: center;
-  /* Vertically center the items */
-  flex-grow: 1;
-  /* Ensures the nav takes up remaining space */
+  align-items: center; /* Vertically center the items */
+  flex-grow: 1; /* Ensures the nav takes up remaining space */
 }
 
+/* Space between logo and first nav link */
 .Nav-link-logo {
   margin-right: 1rem;
-  /* Adds padding between logo and first nav link */
 }
 
-/* Icons Section */
 .Nav-icons {
-  display: flex;
-  /* Aligns icons horizontally */
-  align-items: center;
-  /* Vertically centers the icons */
-  margin-left: auto;
-  /* Pushes the icons to the far right */
+  display: flex; /* Aligns icons horizontally */
+  align-items: center; /* Vertically centers the icons */
+  margin-left: auto; /* Pushes the icons to the far right */
 }
 
 .Nav-icon {
-  color: var(--raisin-black);
-  /* White color for icons */
-  margin-left: 1rem;
-  /* Adds space between icons */
-  text-decoration: none;
-  /* Removes underline on links */
+  color: var(--raisin-black); /* White color for icons */
+  margin-left: 1rem; /* Adds space between icons */
+  text-decoration: none; /* Removes underline on links */
 }
 
 .Nav-icon:hover {
-  color: var(--jungle-green);
-  /* Light color on hover for icons */
+  color: var(--jungle-green); /* Light color on hover for icons */
 }
 
 .Nav-link.active {
   text-decoration: underline;
   text-underline-offset: 9px; /* Adjust underline distance from text */
   text-decoration-thickness: 1px; /* Controls the thickness */
+}
+
+/* Responsive Styles for Small Screens (max-width: 768px) */
+@media (max-width: 768px) {
+  .Navbar {
+    padding: 10px;
+  }
+
+  /* Smaller logo for mobile view */
+  .Nav-logo {
+    width: 1px; /* Adjust logo size for small screens */
+  }
+
+  /* Adjust padding for nav links */
+  .Nav-link {
+    padding: 0.5rem 0.8rem; /* Reduced padding for links on small screens */
+  }
+
+  /* Stack the navbar items vertically on smaller screens */
+  .Nav {
+    flex-direction: column;
+    align-items: flex-start; /* Align items at the start */
+  }
+
+  .Nav-icons {
+    margin-left: 0;
+    margin-top: 1rem; /* Space between icons when stacking */
+  }
+
+  /* Adjust links alignment for mobile */
+  .Nav-link {
+    width: 100%; /* Make nav links fill the width of the navbar */
+    text-align: center; /* Center text on mobile */
+    padding: 0.8rem 0; /* Adjust padding */
+  }
 }
