@@ -18,7 +18,7 @@ export function Speaking() {
                     <ContentElement
                         title={
                             <>
-                                AWS re:Invent - Las Vegas
+                                AWS re:Invent
                                 <br />
                                 <i>Las Vegas, 02 - 06 December 2024</i>
                             </>
