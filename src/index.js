@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { HashRouter, Routes, Route } from "react-router-dom";  // Change BrowserRouter to HashRouter
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import { Home, About, SpaceProjects, TechArticles, Speaking, Contact} from "./pages";
+import { Home, About, Projects, TechArticles, Speaking, Contact} from "./pages";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,9 +12,9 @@ root.render(
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        {/* <Route path="/space-projects" element={<SpaceProjects />} /> */}
-        <Route path="/speaking" element={<Speaking />} />
         <Route path="/tech-articles" element={<TechArticles />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/speaking" element={<Speaking />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </HashRouter>

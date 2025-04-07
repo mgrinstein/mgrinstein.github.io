@@ -25,12 +25,12 @@ export function WebsiteNavbar() {
           <Nav.Link className={`Nav-link ${location.pathname === "/tech-articles" ? "active" : ""}`} href="/#/tech-articles">
             Tech Articles
           </Nav.Link>
+          <Nav.Link className={`Nav-link ${location.pathname === "/projects" ? "active" : ""}`} href="/#/projects">
+            Projects
+            </Nav.Link>
           <Nav.Link className={`Nav-link ${location.pathname === "/speaking" ? "active" : ""}`} href="/#/speaking">
             Speaking
             </Nav.Link>
-          {/* <Nav.Link className={`Nav-link ${location.pathname === "/space-projects" ? "active" : ""}`} href="/#/space-projects">
-            Space Projects
-          </Nav.Link> */}
           <Nav.Link className={`Nav-link ${location.pathname === "/contact" ? "active" : ""}`} href="/#/contact">
             Contact
           </Nav.Link>

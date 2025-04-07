@@ -2,7 +2,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import "./ContentElement.css";
 
-export function ContentElement({ image, title, description, link, hashtags }) {
+export function ContentElement({ image, title, description, link, hashtags, buttonText }) {
   return (
     <Card className="content-element">
       <Card.Img variant="top" src={image} alt={title} className="img-thumbnail" />
@@ -14,7 +14,7 @@ export function ContentElement({ image, title, description, link, hashtags }) {
         <div className="card-footer">
           {link && (
             <Button href={link} target="_blank" rel="noopener noreferrer">
-              Read More
+              {buttonText || "Read More"}
             </Button>
           )}
           <div className="content-hashtags">
