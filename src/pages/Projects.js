@@ -22,7 +22,7 @@ export function Projects() {
             buttonText="Source Code"
           />
           <ContentElement
-            title="GROUNDSTER: GROUND Station Telemetry Receiver"
+            title="GROUNDSTER: Ground Station Telemetry Receiver"
             description="A simulated ground station that receives telemetry data from a satellite via TCP socket connection"
             image={images.groundster}
             link="https://github.com/mgrinstein/GROUNDSTER"
