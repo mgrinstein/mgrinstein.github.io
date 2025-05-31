@@ -15,15 +15,23 @@ export function Projects() {
       <div className="content-grid">
         <ContentElement
           title="SETTLE - Satellite Element Tracking via TLE"
-          description="Visualising calculated satellite positions on an interactive map"
+          description="A satellite tracker using Celestrak TLE data with SGP4 orbit propagation and interactive map visualisations"
           image={images.settle}
           link="https://github.com/mgrinstein/SETTLE"
-          hashtags={["Python", "CelesTrack", "sgp4"]}
+          hashtags={["Python", "CelesTrak", "sgp4"]}
           buttonText="Source Code"
         />
         <ContentElement
-          title="Satellite Image Analysis"
-          description="Processing and analyzing satellite images using the 2024 Kīlauea volcano eruption as an example"
+          title="GROUNDSTER - GROUND Station TElemetry Receiver"
+          description="A simulated ground station that receives telemetry data from a satellite via TCP socket connection"
+          image={images.groundster}
+          link="https://github.com/mgrinstein/GROUNDSTER"
+          hashtags={["C++", "Python", "FASTAPI"]}
+          buttonText="Source Code"
+        />
+        <ContentElement
+          title=" KILAUEA-EO - Kīlauea Earth Observation"
+          description="An analysis of a recent volcanic eruption using Sentinel-2 imagery in the NIR band from Google Earth Engine"
           image={images.volcano}
           link="https://github.com/mgrinstein/volcano-image-processing"
           hashtags={["Python", "JupyterNotebook", "GeoTIFF", "EarthObservation"]}
