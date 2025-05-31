@@ -14,7 +14,7 @@ export function Projects() {
 
         <div className="content-grid">
           <ContentElement
-            title="SETTLE - Satellite Element Tracking via TLE"
+            title="SETTLE: Satellite Element Tracking via TLE"
             description="A satellite tracker using Celestrak TLE data with SGP4 orbit propagation and interactive map visualisations"
             image={images.settle}
             link="https://github.com/mgrinstein/SETTLE"
@@ -22,7 +22,7 @@ export function Projects() {
             buttonText="Source Code"
           />
           <ContentElement
-            title="GROUNDSTER - GROUND Station TElemetry Receiver"
+            title="GROUNDSTER: GROUND Station TElemetry Receiver"
             description="A simulated ground station that receives telemetry data from a satellite via TCP socket connection"
             image={images.groundster}
             link="https://github.com/mgrinstein/GROUNDSTER"
@@ -30,7 +30,7 @@ export function Projects() {
             buttonText="Source Code"
           />
           <ContentElement
-            title="KILAUEA-EO - Kīlauea Earth Observation"
+            title="KILAUEA-EO: Kīlauea Earth Observation"
             description="An analysis of a recent volcanic eruption using Sentinel-2 imagery in the NIR band from Google Earth Engine"
             image={images.volcano}
             link="https://github.com/mgrinstein/KILAUEA-EO"
