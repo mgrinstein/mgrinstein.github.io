@@ -14,7 +14,14 @@ export function TechArticles() {
       </div>
 
       {/* Grid layout for ContentElements */}
-      <div className="content-grid">
+            <div className="content-grid">
+        <ContentElement
+          title="Sustainable Lunar Infrastructure Development"
+          description={`Study of the design and infrastructure for a sustainable lunar spaceport. Presented at IAF\’s International Astronautical Congress - IAC 2025.`}
+          image={images.lunar}
+          link="https://dl.iafastro.directory/event/IAC-2025/paper/99090/"
+          hashtags={["Space", "Research"]}
+        />
         <ContentElement
           title="DevTools from AWS re:Invent 2024 to Kickstart 2025"
           description="In this post, I share the three DevTools that stood out for me from AWS re:Invent 2024 to kickstart your 2025 development journey."
