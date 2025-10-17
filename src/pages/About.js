@@ -16,6 +16,7 @@ export function About() {
               </ul>
               <h2>Degrees:</h2>
               <ul>
+                <li>Space Studies Program - International Space University</li>
                 <li>MEng in Telecommunications Engineering - IMT Atlantique</li>
                 <li>BEng in Electrical Engineering - Federal University of Rio de Janeiro</li>
               </ul>
