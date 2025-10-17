@@ -14,16 +14,16 @@ export function Projects() {
 
         <div className="content-grid">
                     <ContentElement
-            title="Jawstronauts | sharksfrom.space"
+            title="Jawstronauts Website | sharksfrom.space"
             description="AI-powered knowledge base for shark behaviour, habitats, and conservation. NASA Space Apps Challenge 2025."
             image={images.sharks}
             link="https://github.com/sharks-from-space/sharks-from-space"
-            hashtags={["GenAI", "MachineLearning", "Python", "JavaScript", "EarthSciences"]}
+            hashtags={["GenAI", "MachineLearning", "Python", "JavaScript", "React", "EarthSciences"]}
             buttonText="Source Code"
 
           />
         <ContentElement
-            title="Sustainable Lunar Infrastructure Development | sustainablelunar.space"
+            title="Project Lunar Website | sustainablelunar.space"
             description="Knowledge portal on developing sustainable infrastructure for lunar exploration and habitation"
             image={images.lunar}
             link="https://github.com/ISU-SSP25/isu-ssp25.github.io"
@@ -64,7 +64,7 @@ export function Projects() {
             buttonText="Source Code"
           />
           <ContentElement
-            title="Portfolio Website"
+            title="Portfolio Website | moniquegrinstein.com"
             description="Déjà vu? Building this webpage"
             image={images.website}
             link="https://github.com/mgrinstein/mgrinstein.github.io"
