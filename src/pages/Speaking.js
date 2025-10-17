@@ -15,6 +15,18 @@ export function Speaking() {
                 </div>
 
                 <div className="content-grid">
+                                        <ContentElement
+                        title={
+                            <>
+                                Space Studies Program - International Space University
+                                <br />
+                                <i>South Korea, 21 August 2025</i>
+                            </>
+                        }
+                        description="Sustainable Lunar Infrastructure Development"
+                        image={images.lunar}
+                        hashtags={["Space", "Research"]}
+                    />
                     <ContentElement
                         title={
                             <>

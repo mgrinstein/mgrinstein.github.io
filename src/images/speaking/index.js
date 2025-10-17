@@ -5,5 +5,6 @@ import aihackathon2 from './AI-hackathon2.jpg';
 import devcon from './devcon.png';
 import devcon2 from './devcon2.png';
 import reinvent2 from './reinvent2.jpeg';
+import lunar from './lunar.png';
 
-export { talkcdk, reinvent, reinvent2, aihackathon, aihackathon2, devcon, devcon2 };
+export { talkcdk, reinvent, reinvent2, aihackathon, aihackathon2, devcon, devcon2, lunar };
