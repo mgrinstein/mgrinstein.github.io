@@ -13,6 +13,24 @@ export function Projects() {
         </div>
 
         <div className="content-grid">
+                    <ContentElement
+            title="Jawstronauts | sharksfrom.space"
+            description="AI-powered knowledge base for shark behaviour, habitats, and conservation. NASA Space Apps Challenge 2025."
+            image={images.sharks}
+            link="https://github.com/sharks-from-space/sharks-from-space"
+            hashtags={["GenAI", "MachineLearning", "Python", "JavaScript", "EarthSciences"]}
+            buttonText="Source Code"
+
+          />
+        <ContentElement
+            title="Sustainable Lunar Infrastructure Development | sustainablelunar.space"
+            description="Knowledge portal on developing sustainable infrastructure for lunar exploration and habitation"
+            image={images.lunar}
+            link="https://github.com/ISU-SSP25/isu-ssp25.github.io"
+            hashtags={["Space", "Research", "JavaScript", "React"]}
+            buttonText="Source Code"
+
+          />
           <ContentElement
             title="SETTLE: Satellite Element Tracking via TLE"
             description="A satellite tracker using Celestrak TLE data with SGP4 orbit propagation and interactive map visualisations"
