@@ -8,9 +8,13 @@ export function Speaking() {
       <div className="PageContent">
         <div className="intro-text">
           <p>
-            I am passionate about sharing knowledge with the developer community
-            and have had the opportunity to speak at local and international
-            events in the past year:
+            I am passionate about sharing knowledge with the developer
+            community, and participating in discussions around technology. I
+            have had the opportunity to speak at local and international events
+            in recent years.
+            <br />
+            <br />
+            Here are some of the talks and presentations:
           </p>
         </div>
 
