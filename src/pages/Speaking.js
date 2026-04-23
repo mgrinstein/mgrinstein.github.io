@@ -22,6 +22,18 @@ export function Speaking() {
           <ContentElement
             title={
               <>
+                Microsoft & Github Copilot
+                <br />
+                <i>London, 21 April 2026</i>
+              </>
+            }
+            description="Building an MCP for OS Maps - GenAI for Geospatial Data"
+            image={images.microsoft}
+            hashtags={["GenAI", "MCP", "GeospatialData", "OSMaps"]}
+          />
+          <ContentElement
+            title={
+              <>
                 United Nations Office for Outer Space Affairs (UNOOSA)
                 <br />
                 <i>Vienna, 18 - 19 November 2025</i>

@@ -7,6 +7,7 @@ import devcon2 from "./devcon2.png";
 import reinvent2 from "./reinvent2.jpeg";
 import lunar from "./lunar.png";
 import unoosa from "./unoosa.jpg";
+import microsoft from "./microsoft.jpg";
 
 export {
   talkcdk,
@@ -18,4 +19,5 @@ export {
   devcon2,
   lunar,
   unoosa,
+  microsoft,
 };
