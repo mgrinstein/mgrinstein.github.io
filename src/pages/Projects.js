@@ -8,28 +8,46 @@ export function Projects() {
       <div className="PageContent">
         <div className="intro-text">
           <p>
-            Here I showcase projects I have worked on recently.<br /> Other projects, contributions, and stats can be found on <a href="https://github.com/mgrinstein" target="_blank">my GitHub page</a>. <br />
+            Here I showcase projects I have worked on recently.
+            <br /> Other projects, contributions, and stats can be found on{" "}
+            <a href="https://github.com/mgrinstein" target="_blank">
+              my GitHub page
+            </a>
+            . <br />
           </p>
         </div>
 
         <div className="content-grid">
-                    <ContentElement
+          <ContentElement
+            title="OS Maps MCP Server"
+            description="An MCP server for hiking trip planning in Great Britain using Ordnance Survey data. Built with Python."
+            image={images.osmaps}
+            link="https://github.com/mgrinstein/os-maps-mcp"
+            hashtags={["MCP", "Python", "GeospatialData", "OrdnanceSurvey"]}
+            buttonText="Source Code"
+          />
+          <ContentElement
             title="Jawstronauts Website | sharksfrom.space"
             description="AI-powered knowledge base for shark behaviour, habitats, and conservation. NASA Space Apps Challenge 2025."
             image={images.sharks}
             link="https://github.com/sharks-from-space/sharks-from-space"
-            hashtags={["GenAI", "MachineLearning", "Python", "JavaScript", "React", "EarthSciences"]}
+            hashtags={[
+              "GenAI",
+              "MachineLearning",
+              "Python",
+              "JavaScript",
+              "React",
+              "EarthSciences",
+            ]}
             buttonText="Source Code"
-
           />
-        <ContentElement
+          <ContentElement
             title="Project Lunar Website | sustainablelunar.space"
             description="Knowledge portal on developing sustainable infrastructure for lunar exploration and habitation"
             image={images.lunar}
             link="https://github.com/ISU-SSP25/isu-ssp25.github.io"
             hashtags={["Space", "Research", "JavaScript", "React"]}
             buttonText="Source Code"
-
           />
           <ContentElement
             title="SETTLE: Satellite Element Tracking via TLE"
@@ -52,7 +70,12 @@ export function Projects() {
             description="An analysis of a recent volcanic eruption using Sentinel-2 imagery in the NIR band from Google Earth Engine"
             image={images.volcano}
             link="https://github.com/mgrinstein/KILAUEA-EO"
-            hashtags={["Python", "JupyterNotebook", "GeoTIFF", "EarthObservation"]}
+            hashtags={[
+              "Python",
+              "JupyterNotebook",
+              "GeoTIFF",
+              "EarthObservation",
+            ]}
             buttonText="Source Code"
           />
           <ContentElement
@@ -70,7 +93,6 @@ export function Projects() {
             link="https://github.com/mgrinstein/mgrinstein.github.io"
             hashtags={["JavaScript", "React", "GitHubActions", "CustomDomain"]}
             buttonText="Source Code"
-
           />
         </div>
       </div>
